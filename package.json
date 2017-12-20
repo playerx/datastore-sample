@@ -1,0 +1,17 @@
+{
+    "name": "b6-graph",
+    "version": "0.1.0",
+    "scripts": {
+        "start": "node dist",
+        "dev": "ts-node src/index.ts",
+        "deploy": "tsc && now -p && now alias"
+    },
+    "author": "Jok Entertainers",
+    "license": "MIT",
+    "dependencies": {
+        "@jokio/graphql": "0.1.7"
+    },
+    "devDependencies": {
+        "ts-node": "4.0.2"
+    }
+}
